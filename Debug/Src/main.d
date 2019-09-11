@@ -1,84 +1,70 @@
-Src/main.o: ../Src/main.c /home/proxima/workspace/BlueRov/Inc/main.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
- /home/proxima/workspace/BlueRov/Inc/stm32f1xx_hal_conf.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
- /home/proxima/workspace/BlueRov/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
- /home/proxima/workspace/BlueRov/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
- /home/proxima/workspace/BlueRov/Drivers/CMSIS/Include/core_cm3.h \
- /home/proxima/workspace/BlueRov/Drivers/CMSIS/Include/core_cmInstr.h \
- /home/proxima/workspace/BlueRov/Drivers/CMSIS/Include/cmsis_gcc.h \
- /home/proxima/workspace/BlueRov/Drivers/CMSIS/Include/core_cmFunc.h \
- /home/proxima/workspace/BlueRov/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
- /home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
- /home/proxima/workspace/BlueRov/Inc/rs485.h \
- /home/proxima/workspace/BlueRov/Inc/main.h \
- /home/proxima/workspace/BlueRov/Inc/frame_parser.h
+Src/main.o: ../Src/main.c \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Inc/main.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Include/core_cm3.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Include/cmsis_version.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Include/cmsis_compiler.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Include/cmsis_gcc.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Inc/rs485.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Inc/main.h \
+ C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Inc/frame_parser.h
 
-/home/proxima/workspace/BlueRov/Inc/main.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Inc/main.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_adc.h:
 
-/home/proxima/workspace/BlueRov/Inc/stm32f1xx_hal_conf.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Include/core_cm3.h:
 
-/home/proxima/workspace/BlueRov/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Include/cmsis_version.h:
 
-/home/proxima/workspace/BlueRov/Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Include/cmsis_compiler.h:
 
-/home/proxima/workspace/BlueRov/Drivers/CMSIS/Include/core_cm3.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Include/cmsis_gcc.h:
 
-/home/proxima/workspace/BlueRov/Drivers/CMSIS/Include/core_cmInstr.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h:
 
-/home/proxima/workspace/BlueRov/Drivers/CMSIS/Include/cmsis_gcc.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_rcc.h:
 
-/home/proxima/workspace/BlueRov/Drivers/CMSIS/Include/core_cmFunc.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_bus.h:
 
-/home/proxima/workspace/BlueRov/Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_system.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_exti.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_cortex.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_utils.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_pwr.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_dma.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_tim.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_usart.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_ll_gpio.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_i2c.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Inc/rs485.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Inc/main.h:
 
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h:
-
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h:
-
-/home/proxima/workspace/BlueRov/Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h:
-
-/home/proxima/workspace/BlueRov/Inc/rs485.h:
-
-/home/proxima/workspace/BlueRov/Inc/main.h:
-
-/home/proxima/workspace/BlueRov/Inc/frame_parser.h:
+C:/Users/Kurat/Documents/git_repos/BlueRov_prog/Inc/frame_parser.h:

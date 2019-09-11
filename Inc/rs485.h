@@ -11,11 +11,8 @@
 #include <stdint.h>
 #include "main.h"
 
-void RS_Transmit(UART_HandleTypeDef* huart, uint8_t* buffer, uint32_t length);
-HAL_StatusTypeDef RS_Receive(UART_HandleTypeDef* huart, uint8_t* rx_data, uint32_t length, uint32_t timeout);
+void rs485_init(void);
 
-void RS_TxCpltcallback(void);
-
-void RS_RxCpltCallback(void);
-
+void rs485_transmit(uint8_t *data, uint32_t length);
+void rs485_rx_callback(uint8_t data);
 #endif /* RS485_H_ */
